@@ -22,7 +22,7 @@ export const Footer = () => {
           const { id, href, icon } = social;
           return (
             <li key={id}>
-              <a href="blank" target={id} className="footer-icon">
+              <a href={href} target={id} className="footer-icon">
                 <i className={icon}></i>
               </a>
             </li>
